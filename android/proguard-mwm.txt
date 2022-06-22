@@ -36,3 +36,6 @@
 -dontwarn androidx.**
 -keep class androidx.** { *; }
 -keep interface androidx.** { *; }
+
+# Looks like it is used by annotations: https://github.com/google/error-prone/issues/2122
+-dontwarn javax.lang.model.element.Modifier
