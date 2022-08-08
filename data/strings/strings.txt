@@ -4465,6 +4465,11 @@
     zh-Hans = 语音指导
     zh-Hant = 語音指示
 
+  [pref_tts_street_names_title]
+    comment = Settings «Route» category: «Tts announce street names» title
+    tags = android,ios
+    en = Announce Street Names
+
   [pref_tts_language_title]
     comment = Settings «Route» category: «Tts language» title
     tags = android,ios

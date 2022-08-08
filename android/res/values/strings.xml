@@ -212,6 +212,8 @@
 	<string name="pref_map_3d_buildings_title">3D buildings</string>
 	<!-- Settings «Route» category: «Tts enabled» title -->
 	<string name="pref_tts_enable_title">Voice Instructions</string>
+	<!-- Settings «Route» category: «Tts announce street names» title -->
+	<string name="pref_tts_street_names_title">Announce Street Names</string>
 	<!-- Settings «Route» category: «Tts language» title -->
 	<string name="pref_tts_language_title">Voice Language</string>
 	<!-- Settings «Route» category: «Tts unavailable» subtitle -->

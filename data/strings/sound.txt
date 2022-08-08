@@ -1178,6 +1178,43 @@
     zh-Hans = 然后
     zh-Hant = 然後
 
+  [onto]
+    en = onto
+    ar = ﺈﻟﻯ
+    be = на
+    cs = na
+    da = ad
+    de = auf
+    el = στην
+    es = por
+    eu =
+    fa = ﺐﻫ
+    fi = tielle
+    fr = sur
+    hi = पर
+    hr = na
+    hu = a
+    id = ke
+    it = sulla
+    ja = に
+    ko =
+    mr = वर
+    nl = naar
+    pl = w
+    pt = na
+    pt-BR = na
+    ro = pe
+    ru = на
+    sk = na
+    sv = in på
+    sw = kwenye
+    th = เข้าสู่
+    tr = üzerine
+    uk = на
+    vi = vào
+    zh-Hans = 上
+    zh-Hant = 上
+
   [take_the_1_exit]
     en = Take the first exit.
     ar = اسلك المخرج الأول.

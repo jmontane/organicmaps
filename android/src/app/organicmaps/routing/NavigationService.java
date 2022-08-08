@@ -213,7 +213,7 @@ public class NavigationService extends Service
 
   private void updateNotification(@Nullable RoutingInfo routingInfo)
   {
-    final String[] turnNotifications = Framework.nativeGenerateNotifications();
+    final String[] turnNotifications = Framework.nativeGenerateNotifications(TtsPlayer.shouldAnnounceStreetNames());
     if (turnNotifications != null)
     {
       mNavigationText = StringUtils.fixCaseInString(turnNotifications[0]);

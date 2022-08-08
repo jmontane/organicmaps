@@ -229,6 +229,9 @@
 /* Settings «Route» category: «Tts enabled» title */
 "pref_tts_enable_title" = "語音指示";
 
+/* Settings «Route» category: «Tts announce street names» title */
+"pref_tts_street_names_title" = "Announce Street Names";
+
 /* Settings «Route» category: «Tts language» title */
 "pref_tts_language_title" = "語音語言";
 

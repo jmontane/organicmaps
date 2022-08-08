@@ -49,8 +49,10 @@ void GetTtsText::ForTestingSetLocaleWithJson(string const & jsonBuffer, string c
 
 string GetTtsText::GetTurnNotification(Notification const & notification) const
 {
+  string const dirStr = GetTextById(GetDirectionTextId(notification));
+
   if (notification.m_distanceUnits == 0 && !notification.m_useThenInsteadOfDistance)
-    return GetTextById(GetDirectionTextId(notification));
+    return dirStr;
 
   if (notification.IsPedestrianNotification())
   {
@@ -62,11 +64,36 @@ string GetTtsText::GetTurnNotification(Notification const & notification) const
   if (notification.m_useThenInsteadOfDistance && notification.m_turnDir == CarDirection::None)
     return string();
 
-  string const dirStr = GetTextById(GetDirectionTextId(notification));
   if (dirStr.empty())
     return string();
 
   string const distStr = GetTextById(GetDistanceTextId(notification));
+
+  if (notification.m_distanceUnits > 0 && !notification.m_nextStreet.empty()) {
+    // We're going to pronounce the street name.
+
+    // First, get rid of unpronounceable symbols.
+    std::string streetOut = notification.m_nextStreet;
+    // Semicolons are between destinations
+    // and pronounced more like commas.
+    std::replace( streetOut.begin(), streetOut.end(), ';', ',');
+    // Open brackets have no pronunciation analogue
+    std::replace( streetOut.begin(), streetOut.end(), '[', ' ');
+    // Closed brackets end a highway and introduce the rest
+    std::replace( streetOut.begin(), streetOut.end(), ']', ':');
+    // An angle bracket is currently used to represent "to" a place
+    // Ideally we'd add a translation for "to" or create full format
+    // strings for better i18n support, like "turn onto %s toward %s"
+    std::replace( streetOut.begin(), streetOut.end(), '>', ',');
+
+    // Replace any full-stop characters to make TTS flow better.
+    // Full stops are: . (Period) or 。 (East Asian) or । (Hindi)
+    std::string dirOut(dirStr);
+    dirOut = std::regex_replace(dirOut, std::regex("[\\.\\。\\।]"), "");
+
+    return distStr + " " + dirOut + " " + GetTextById("onto") + " " + streetOut;
+  }
+
   return distStr + " " + dirStr;
 }
 

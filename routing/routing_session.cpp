@@ -487,7 +487,7 @@ void RoutingSession::PassCheckpoints()
   }
 }
 
-void RoutingSession::GenerateNotifications(vector<string> & notifications)
+void RoutingSession::GenerateNotifications(vector<string> & notifications, bool shouldAnnounceStreetNames)
 {
   CHECK_THREAD_CHECKER(m_threadChecker, ());
   notifications.clear();
@@ -503,8 +503,18 @@ void RoutingSession::GenerateNotifications(vector<string> & notifications)
 
   // Generate turns notifications.
   vector<turns::TurnItemDist> turns;
-  if (m_route->GetNextTurns(turns))
-    m_turnNotificationsMgr.GenerateTurnNotifications(turns, notifications);
+  if (m_route->GetNextTurns(turns)) {
+    std::string nextStreet;
+
+    // only get nextStreet if TtsStreetNames is enabled
+    if (shouldAnnounceStreetNames) {
+      RouteSegment::RoadNameInfo targetRoadNameInfo;
+      m_route->GetNextTurnStreetName(targetRoadNameInfo);
+      GetFullRoadName(targetRoadNameInfo, nextStreet);
+    }
+
+    m_turnNotificationsMgr.GenerateTurnNotifications(turns, notifications, nextStreet);
+  }
 
   m_speedCameraManager.GenerateNotifications(notifications);
 }
