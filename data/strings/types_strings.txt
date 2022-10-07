@@ -4297,6 +4297,42 @@
     tr = Bisiklet Bariyeri
     uk = Велосипедна перешкода
 
+  [type.barrier.ditch]
+    en = Ditch
+    ar = ﻕﺪﻨﺧ
+    be = Роў
+    bg = Ров
+    cs = Hradní příkop
+    da = Voldgrav
+    de = Graben
+    el = Τάφρος
+    es = Foso
+    eu = Lubanarroa
+    fa = ﻕﺪﻨﺧ
+    fi = Vallihauta
+    fr = Fossé
+    he = ןגֵמָ תלַעָתְ
+    hu = Várárok
+    id = Parit
+    it = Fossato
+    ja = 堀
+    ko = "해자 외호"
+    nb = Vollgrav
+    nl = Gracht
+    pl = Rów
+    pt = Vala
+    ro = Şanţ
+    ru = Ров
+    sk = Priekopa
+    sv = Vallgrav
+    sw = Moti
+    th = คูเมือง
+    tr = Hendek
+    uk = Рів
+    vi = Hào nước
+    zh-Hans = 沟渠
+    zh-Hant = 護城河
+
   [type.barrier.entrance]
     en = Entrance
     ar = مدخل الحاجز
@@ -4397,6 +4433,12 @@
     ru = Живая изгородь
     tr = Çit
     zh-Hans = 树篱
+
+  [type.barrier.kissing_gate]
+    ref = type.barrier.gate
+    en = Kissing Gate
+    nl = Voetgangershek
+    pt = Quebra-corpo
 
   [type.barrier.lift_gate]
     en = Lift Gate
