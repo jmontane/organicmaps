@@ -3223,6 +3223,74 @@ cont {
 cont {
   name: "amenity-charging_station"
   element {
+    scale: 16
+    symbol {
+      name: "charging-station-m"
+      priority: 16650
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: 15500
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "charging-station-m"
+      priority: 16650
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: 15650
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "charging-station-m"
+      priority: 16650
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: 15650
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "charging-station-m"
+      priority: 16650
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+        is_optional: true
+      }
+      priority: 15650
+    }
+  }
+}
+cont {
+  name: "amenity-charging_station-motorcar"
+  element {
     scale: 14
     symbol {
       name: "charging-station-s"
@@ -9465,6 +9533,7 @@ cont {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9480,6 +9549,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9495,6 +9565,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9510,6 +9581,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9528,6 +9600,7 @@ cont {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9543,6 +9616,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9558,6 +9632,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9573,6 +9648,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9674,6 +9750,7 @@ cont {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9689,6 +9766,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9704,6 +9782,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9719,6 +9798,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9809,11 +9889,51 @@ cont {
   }
 }
 cont {
+  name: "barrier-ditch"
+  element {
+    scale: 17
+    lines {
+      width: 1.8
+      color: 401446
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1150
+    }
+  }
+  element {
+    scale: 18
+    lines {
+      width: 1.8
+      color: 401446
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1150
+    }
+  }
+  element {
+    scale: 19
+    lines {
+      width: 1.8
+      color: 401446
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1150
+    }
+  }
+}
+cont {
   name: "barrier-entrance"
   element {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9829,6 +9949,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9844,6 +9965,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9859,6 +9981,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9912,6 +10035,7 @@ cont {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9927,6 +10051,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9942,6 +10067,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -9957,6 +10083,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -10001,6 +10128,73 @@ cont {
       width: 4.0
       color: 1585688
       priority: 1462
+    }
+  }
+}
+cont {
+  name: "barrier-kissing_gate"
+  element {
+    scale: 16
+    symbol {
+      name: "dot-m"
+      apply_for_type: 1
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15000
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "dot-m"
+      apply_for_type: 1
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15000
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "dot-m"
+      apply_for_type: 1
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15000
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "dot-m"
+      apply_for_type: 1
+      priority: 16000
+    }
+    caption {
+      primary {
+        height: 11
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15000
     }
   }
 }
@@ -10139,6 +10333,7 @@ cont {
     scale: 16
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -10154,6 +10349,7 @@ cont {
     scale: 17
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -10169,6 +10365,7 @@ cont {
     scale: 18
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -10184,6 +10381,7 @@ cont {
     scale: 19
     symbol {
       name: "dot-m"
+      apply_for_type: 1
       priority: 16000
     }
     caption {
@@ -11539,107 +11737,10 @@ cont {
 cont {
   name: "building-train_station"
   element {
-    scale: 11
-    symbol {
-      name: "train-s"
-      priority: 16952
-      min_distance: 10
-    }
-    caption {
-      primary {
-        height: 10
-        color: 8947848
-        stroke_color: 1712394496
-        is_optional: true
-      }
-      secondary {
-        height: 10
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15952
-    }
-  }
-  element {
-    scale: 12
-    symbol {
-      name: "train-s"
-      priority: 16952
-    }
-    caption {
-      primary {
-        height: 9
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 8
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15952
-    }
-  }
-  element {
-    scale: 13
-    symbol {
-      name: "train-s"
-      priority: 16952
-    }
-    caption {
-      primary {
-        height: 10
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 9
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15952
-    }
-  }
-  element {
     scale: 14
     area {
       color: 2150246954
       priority: 1953
-    }
-    symbol {
-      name: "train-s"
-      priority: 16952
-    }
-    caption {
-      primary {
-        height: 11
-        color: 8947848
-        stroke_color: 1292964096
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 10
-        color: 8947848
-        stroke_color: 1292964096
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15952
     }
   }
   element {
@@ -11647,28 +11748,6 @@ cont {
     area {
       color: 1714039338
       priority: 1953
-    }
-    symbol {
-      name: "train-m"
-      priority: 16952
-    }
-    caption {
-      primary {
-        height: 12
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 10
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15952
     }
   }
   element {
@@ -11681,25 +11760,16 @@ cont {
       }
       priority: 1274
     }
-    symbol {
-      name: "train-m"
-      priority: 16273
-    }
     caption {
       primary {
         height: 9
         color: 5592405
-        stroke_color: 860111940
-        offset_y: 1
-        is_optional: true
       }
       secondary {
-        height: 11
+        height: 10
         color: 5592405
-        stroke_color: 860111940
         offset_y: 1
         text: "int_name"
-        is_optional: true
       }
       priority: 15273
     }
@@ -11714,25 +11784,16 @@ cont {
       }
       priority: 1274
     }
-    symbol {
-      name: "train-m"
-      priority: 16273
-    }
     caption {
       primary {
         height: 9
         color: 5592405
-        stroke_color: 440681540
-        offset_y: 1
-        is_optional: true
       }
       secondary {
         height: 8
         color: 5592405
-        stroke_color: 440681540
         offset_y: 1
         text: "int_name"
-        is_optional: true
       }
       priority: 15273
     }
@@ -11747,25 +11808,16 @@ cont {
       }
       priority: 1274
     }
-    symbol {
-      name: "train-m"
-      priority: 16273
-    }
     caption {
       primary {
         height: 11
         color: 5592405
-        stroke_color: 440681540
-        offset_y: 1
-        is_optional: true
       }
       secondary {
         height: 10
         color: 5592405
-        stroke_color: 440681540
         offset_y: 1
         text: "int_name"
-        is_optional: true
       }
       priority: 15273
     }
@@ -11780,25 +11832,16 @@ cont {
       }
       priority: 1274
     }
-    symbol {
-      name: "train-m"
-      priority: 16273
-    }
     caption {
       primary {
         height: 11
         color: 5592405
-        stroke_color: 440681540
-        offset_y: 1
-        is_optional: true
       }
       secondary {
         height: 10
         color: 5592405
-        stroke_color: 440681540
         offset_y: 1
         text: "int_name"
-        is_optional: true
       }
       priority: 15273
     }
@@ -36926,6 +36969,42 @@ cont {
   }
 }
 cont {
+  name: "leisure-dance"
+  element {
+    scale: 17
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15047
+    }
+  }
+  element {
+    scale: 18
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15047
+    }
+  }
+  element {
+    scale: 19
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+        offset_y: 1
+      }
+      priority: 15047
+    }
+  }
+}
+cont {
   name: "leisure-dog_park"
   element {
     scale: 16
@@ -41881,6 +41960,121 @@ cont {
     area {
       color: 8738
       priority: -16709
+    }
+  }
+}
+cont {
+  name: "natural-desert"
+  element {
+    scale: 10
+    area {
+      color: 1184078
+      priority: -15991
+    }
+  }
+  element {
+    scale: 11
+    area {
+      color: 1184078
+      priority: -15991
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 1184078
+      priority: -15991
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 1184078
+      priority: -15991
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 1184078
+      priority: -15991
+    }
+    caption {
+      primary {
+        height: 10
+        color: 5592405
+      }
+      priority: 15009
     }
   }
 }
@@ -58395,6 +58589,15 @@ cont {
 cont {
   name: "railway-station-subway-amsterdam"
   element {
+    scale: 12
+    symbol {
+      name: "subway-amsterdam-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-amsterdam-s"
@@ -59240,6 +59443,15 @@ cont {
 cont {
   name: "railway-station-subway-barcelona"
   element {
+    scale: 12
+    symbol {
+      name: "subway-barcelona-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-barcelona-s"
@@ -59408,6 +59620,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-beijing"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-beijing-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -59746,6 +59967,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-berlin"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-ubahn-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -60760,6 +60990,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-buenos_aires"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-buenosaires-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -64310,6 +64549,15 @@ cont {
 cont {
   name: "railway-station-subway-istanbul"
   element {
+    scale: 12
+    symbol {
+      name: "subway-istanbul-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-istanbul-s"
@@ -64985,6 +65233,24 @@ cont {
 }
 cont {
   name: "railway-station-subway-kiev"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-kiev-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+    caption {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+        offset_y: 1
+      }
+      priority: 15943
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -65835,6 +66101,15 @@ cont {
 cont {
   name: "railway-station-subway-la"
   element {
+    scale: 12
+    symbol {
+      name: "subway-losangeles-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-losangeles-s"
@@ -66511,7 +66786,7 @@ cont {
 cont {
   name: "railway-station-subway-lisboa"
   element {
-    scale: 13
+    scale: 12
     symbol {
       name: "subway-lisboa-s"
       apply_for_type: 1
@@ -66519,166 +66794,6 @@ cont {
       min_distance: 1
     }
   }
-  element {
-    scale: 14
-    symbol {
-      name: "subway-lisboa-s"
-      apply_for_type: 1
-      priority: 16943
-      min_distance: 1
-    }
-    caption {
-      primary {
-        height: 11
-        color: 8947848
-        stroke_color: 1292964096
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 9
-        color: 8947848
-        stroke_color: 1292964096
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-  element {
-    scale: 15
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16943
-    }
-    caption {
-      primary {
-        height: 12
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 10
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-  element {
-    scale: 16
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16943
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 856756480
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-  element {
-    scale: 17
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16943
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-  element {
-    scale: 18
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16943
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-  element {
-    scale: 19
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16943
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15943
-    }
-  }
-}
-cont {
-  name: "railway-station-subway-lisbon"
   element {
     scale: 13
     symbol {
@@ -66848,6 +66963,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-london"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-london-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -67186,6 +67310,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-madrid"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-madrid-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -68370,6 +68503,15 @@ cont {
 cont {
   name: "railway-station-subway-mexico"
   element {
+    scale: 12
+    symbol {
+      name: "subway-mexico-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-mexico-s"
@@ -68707,6 +68849,24 @@ cont {
 }
 cont {
   name: "railway-station-subway-minsk"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-minsk-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+    caption {
+      primary {
+        height: 10
+        color: 8947848
+        stroke_color: 1292964096
+        offset_y: 1
+      }
+      priority: 15943
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -69536,6 +69696,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-newyork"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-newyork-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -70720,6 +70889,15 @@ cont {
 cont {
   name: "railway-station-subway-paris"
   element {
+    scale: 12
+    symbol {
+      name: "subway-paris-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-paris-s"
@@ -71564,6 +71742,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-roma"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-rome-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -72911,6 +73098,15 @@ cont {
 cont {
   name: "railway-station-subway-sf"
   element {
+    scale: 12
+    symbol {
+      name: "subway-sanfrancisco-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-sanfrancisco-s"
@@ -73079,6 +73275,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-shanghai"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-shanghai-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -73752,6 +73957,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-stockholm"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-stockholm-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -74936,6 +75150,15 @@ cont {
 cont {
   name: "railway-station-subway-tokyo"
   element {
+    scale: 12
+    symbol {
+      name: "subway-tokyo-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
+  element {
     scale: 13
     symbol {
       name: "subway-tokyo-s"
@@ -75273,6 +75496,15 @@ cont {
 }
 cont {
   name: "railway-station-subway-vienna"
+  element {
+    scale: 12
+    symbol {
+      name: "subway-vienna-s"
+      apply_for_type: 1
+      priority: 16943
+      min_distance: 1
+    }
+  }
   element {
     scale: 13
     symbol {
@@ -81815,107 +82047,6 @@ cont {
 }
 cont {
   name: "railway-subway_entrance-lisboa"
-  element {
-    scale: 16
-    caption {
-      primary {
-        height: 10
-        color: 8947848
-        stroke_color: 1712394496
-        is_optional: true
-      }
-      secondary {
-        height: 10
-        color: 8947848
-        stroke_color: 1712394496
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15905
-    }
-  }
-  element {
-    scale: 17
-    symbol {
-      name: "subway-lisboa-s"
-      apply_for_type: 1
-      priority: 16905
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15905
-    }
-  }
-  element {
-    scale: 18
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16905
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15905
-    }
-  }
-  element {
-    scale: 19
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16905
-    }
-    caption {
-      primary {
-        height: 13
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        is_optional: true
-      }
-      secondary {
-        height: 11
-        color: 8947848
-        stroke_color: 437326080
-        offset_y: 1
-        text: "int_name"
-        is_optional: true
-      }
-      priority: 15905
-    }
-  }
-}
-cont {
-  name: "railway-subway_entrance-lisbon"
   element {
     scale: 16
     caption {

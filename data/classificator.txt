@@ -37,7 +37,9 @@ world  +
         car_sharing  -
         car_wash  -
         casino  -
-        charging_station  -
+        charging_station  +
+            motorcar  -
+            {}
         childcare  -
         cinema  -
         clinic  -
@@ -163,13 +165,16 @@ world  +
         block  -
         bollard  -
         border_control  -
+        cattle_grid  -
         chain  -
         city_wall  -
         cycle_barrier  -
+        ditch  -
         entrance  -
         fence  -
         gate  -
         hedge  -
+        kissing_gate  -
         lift_gate  -
         retaining_wall  -
         stile  -
@@ -570,6 +575,7 @@ world  +
     leisure  +
         beach_resort  -
         common  -
+        dance  -
         dog_park  -
         fitness_centre  -
         fitness_station  -
@@ -643,6 +649,7 @@ world  +
         cave_entrance  -
         cliff  -
         coastline  -
+        desert  -
         earth_bank  -
         geyser  -
         glacier  -
@@ -862,7 +869,6 @@ world  +
                 lille  -
                 lima  -
                 lisboa  -
-                lisbon  -
                 london  -
                 lyon  -
                 madrid  -
@@ -978,7 +984,6 @@ world  +
             lille  -
             lima  -
             lisboa  -
-            lisbon  -
             london  -
             lyon  -
             madrid  -

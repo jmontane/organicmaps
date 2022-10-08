@@ -915,6 +915,70 @@ cont {
 cont {
   name: "amenity-charging_station"
   element {
+    scale: 16
+    symbol {
+      name: "charging-station-m"
+      priority: 16918
+      min_distance: 10
+    }
+    caption {
+      primary {
+        height: 12
+        color: 4473924
+        offset_y: 1
+      }
+      priority: 15500
+    }
+  }
+  element {
+    scale: 17
+    symbol {
+      name: "charging-station-m"
+      priority: 16918
+    }
+    caption {
+      primary {
+        height: 13
+        color: 4473924
+        offset_y: 1
+      }
+      priority: 15918
+    }
+  }
+  element {
+    scale: 18
+    symbol {
+      name: "charging-station-m"
+      priority: 16918
+    }
+    caption {
+      primary {
+        height: 14
+        color: 4473924
+        offset_y: 1
+      }
+      priority: 15918
+    }
+  }
+  element {
+    scale: 19
+    symbol {
+      name: "charging-station-m"
+      priority: 16918
+    }
+    caption {
+      primary {
+        height: 14
+        color: 4473924
+        offset_y: 1
+      }
+      priority: 15918
+    }
+  }
+}
+cont {
+  name: "amenity-charging_station-motorcar"
+  element {
     scale: 14
     symbol {
       name: "charging-station-m"
@@ -4165,6 +4229,45 @@ cont {
   }
 }
 cont {
+  name: "barrier-ditch"
+  element {
+    scale: 17
+    lines {
+      width: 1.8
+      color: 3584191
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1174
+    }
+  }
+  element {
+    scale: 18
+    lines {
+      width: 1.8
+      color: 3584191
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1174
+    }
+  }
+  element {
+    scale: 19
+    lines {
+      width: 1.8
+      color: 3584191
+      dashdot {
+        dd: 1.0
+        dd: 1.0
+      }
+      priority: 1174
+    }
+  }
+}
+cont {
   name: "barrier-fence"
   element {
     scale: 17
@@ -5248,27 +5351,6 @@ cont {
 cont {
   name: "building-train_station"
   element {
-    scale: 12
-    symbol {
-      name: "train-s"
-      priority: 16953
-    }
-  }
-  element {
-    scale: 13
-    symbol {
-      name: "train-m"
-      priority: 16953
-    }
-  }
-  element {
-    scale: 14
-    symbol {
-      name: "train-m"
-      priority: 16953
-    }
-  }
-  element {
     scale: 15
     area {
       color: 1523897290
@@ -5277,10 +5359,6 @@ cont {
         color: 13947850
       }
       priority: 1954
-    }
-    symbol {
-      name: "train-m"
-      priority: 16953
     }
   }
   element {
@@ -5293,10 +5371,6 @@ cont {
       }
       priority: 1954
     }
-    symbol {
-      name: "train-m"
-      priority: 16953
-    }
   }
   element {
     scale: 17
@@ -5307,10 +5381,6 @@ cont {
         color: 13947850
       }
       priority: 1954
-    }
-    symbol {
-      name: "train-m"
-      priority: 16953
     }
   }
   element {
@@ -5323,15 +5393,10 @@ cont {
       }
       priority: 1175
     }
-    symbol {
-      name: "train-m"
-      priority: 16174
-    }
     caption {
       primary {
         height: 13
         color: 6381914
-        offset_y: 1
         text: "addr:housenumber"
       }
       priority: 15174
@@ -5347,15 +5412,10 @@ cont {
       }
       priority: 1175
     }
-    symbol {
-      name: "train-m"
-      priority: 16174
-    }
     caption {
       primary {
         height: 14
         color: 6381914
-        offset_y: 1
         text: "addr:housenumber"
       }
       priority: 15174
@@ -25463,6 +25523,121 @@ cont {
     area {
       color: 9163744
       priority: -16711
+    }
+  }
+}
+cont {
+  name: "natural-desert"
+  element {
+    scale: 10
+    area {
+      color: 15656370
+      priority: -15989
+    }
+  }
+  element {
+    scale: 11
+    area {
+      color: 15656370
+      priority: -15989
+    }
+  }
+  element {
+    scale: 12
+    area {
+      color: 15656370
+      priority: -15989
+    }
+  }
+  element {
+    scale: 13
+    area {
+      color: 15656370
+      priority: -15989
+    }
+  }
+  element {
+    scale: 14
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
+    }
+  }
+  element {
+    scale: 15
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
+    }
+  }
+  element {
+    scale: 16
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
+    }
+  }
+  element {
+    scale: 17
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
+    }
+  }
+  element {
+    scale: 18
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
+    }
+  }
+  element {
+    scale: 19
+    area {
+      color: 15656370
+      priority: -15989
+    }
+    caption {
+      primary {
+        height: 10
+        color: 4473924
+      }
+      priority: 15011
     }
   }
 }
@@ -48571,178 +48746,6 @@ cont {
   }
 }
 cont {
-  name: "railway-station-subway-lisbon"
-  element {
-    scale: 13
-    symbol {
-      name: "subway-lisboa-s"
-      apply_for_type: 1
-      priority: 16906
-      min_distance: 1
-    }
-    caption {
-      primary {
-        height: 11
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-      }
-      secondary {
-        height: 9
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 14
-    symbol {
-      name: "subway-lisboa-s"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 12
-        color: 3355443
-        stroke_color: 1308622847
-        offset_y: 1
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 1308622847
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 15
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 12
-        color: 3355443
-        stroke_color: 872415231
-        offset_y: 1
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 872415231
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 16
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 13
-        color: 3355443
-        stroke_color: 872415231
-        offset_y: 1
-      }
-      secondary {
-        height: 11
-        color: 3355443
-        stroke_color: 872415231
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 17
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 14
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-      }
-      secondary {
-        height: 12
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 18
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 14
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-      }
-      secondary {
-        height: 12
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-  element {
-    scale: 19
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16906
-    }
-    caption {
-      primary {
-        height: 14
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-      }
-      secondary {
-        height: 12
-        color: 3355443
-        stroke_color: 452984831
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15906
-    }
-  }
-}
-cont {
   name: "railway-station-subway-london"
   element {
     scale: 13
@@ -63369,96 +63372,6 @@ cont {
 }
 cont {
   name: "railway-subway_entrance-lisboa"
-  element {
-    scale: 16
-    caption {
-      primary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15000
-    }
-  }
-  element {
-    scale: 17
-    symbol {
-      name: "subway-lisboa-s"
-      apply_for_type: 1
-      priority: 16000
-    }
-    caption {
-      primary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15000
-    }
-  }
-  element {
-    scale: 18
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16000
-    }
-    caption {
-      primary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15000
-    }
-  }
-  element {
-    scale: 19
-    symbol {
-      name: "subway-lisboa-m"
-      apply_for_type: 1
-      priority: 16000
-    }
-    caption {
-      primary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-      }
-      secondary {
-        height: 10
-        color: 3355443
-        stroke_color: 1728053247
-        offset_y: 1
-        text: "int_name"
-      }
-      priority: 15000
-    }
-  }
-}
-cont {
-  name: "railway-subway_entrance-lisbon"
   element {
     scale: 16
     caption {

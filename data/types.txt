@@ -198,7 +198,7 @@ landuse|forest|coniferous
 *boundary|national_park
 landuse|forest|deciduous
 *waterway|dam
-mapswithme
+*amenity|charging_station|motorcar
 *leisure|golf_course
 *highway|service|bridge
 *power|minor_line
@@ -744,9 +744,9 @@ boundary|administrative|4
 *amenity|parking_entrance
 *amenity|parking_entrance|private
 *amenity|parking_entrance|permissive
-mapswithme
-mapswithme
-mapswithme
+*barrier|cattle_grid
+*barrier|ditch
+*barrier|kissing_gate
 mapswithme
 mapswithme
 mapswithme
@@ -1129,7 +1129,7 @@ leisure|sports_centre
 *amenity|vending_machine|food
 *amenity|vending_machine|newspapers
 *amenity|vending_machine|sweets
-mapswithme
+*leisure|dance
 *amenity|music_school
 *amenity|language_school
 *historic|city_gate
@@ -1221,7 +1221,7 @@ mapswithme
 mapswithme
 mapswithme
 mapswithme
-mapswithme
+*natural|desert
 *natural|water|tunnel
 *place|square
 *tourism|artwork|architecture
@@ -1402,7 +1402,7 @@ amenity|recycling|container
 *railway|station|subway|lille
 *railway|station|subway|lima
 *railway|station|subway|lisboa
-*railway|station|subway|lisbon
+mapswithme
 *railway|station|subway|lyon
 *railway|station|subway|malaga
 *railway|station|subway|manila
@@ -1499,7 +1499,7 @@ amenity|recycling|container
 *railway|subway_entrance|lille
 *railway|subway_entrance|lima
 *railway|subway_entrance|lisboa
-*railway|subway_entrance|lisbon
+mapswithme
 *railway|subway_entrance|lyon
 *railway|subway_entrance|malaga
 *railway|subway_entrance|manila
