@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "Τάφρος";
+
 "type.barrier.entrance" = "Είσοδος";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Πύλη";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "Πύλη";
 
 "type.barrier.lift_gate" = "Ανυψούμενη μπάρα";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Γυμναστήριο";
 
+"type.leisure.dance" = "Αίθουσα χορού";
+
 "type.leisure.garden" = "Κήπος αναψυχής";
 
 "type.leisure.garden.residential" = "Κήπος αναψυχής";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Ανάχωμα";
 
 "type.natural.coastline" = "Ακτή";
+
+"type.natural.desert" = "Ερημος";
 
 "type.natural.geyser" = "Θερμοπίδακας";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "Μετρό";
 
 "type.railway.station.subway.lisboa" = "Μετρό";
-
-"type.railway.station.subway.lisbon" = "Μετρό";
 
 "type.railway.station.subway.london" = "Μετρό";
 

@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "バリカー";
 
+"type.barrier.ditch" = "堀";
+
 "type.barrier.entrance" = "エントランス";
 
 "type.barrier.fence" = "フェンス";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "ゲート";
 
 "type.barrier.hedge" = "生垣";
+
+"type.barrier.kissing_gate" = "ゲート";
 
 "type.barrier.lift_gate" = "ブームバリア";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "フィットネスステーション";
 
+"type.leisure.dance" = "ダンスホール";
+
 "type.leisure.garden" = "庭園";
 
 "type.leisure.garden.residential" = "庭園";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "盛土";
 
 "type.natural.coastline" = "海岸線";
+
+"type.natural.desert" = "荒野";
 
 "type.natural.geyser" = "間欠泉";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "地下鉄";
 
 "type.railway.station.subway.lisboa" = "地下鉄";
-
-"type.railway.station.subway.lisbon" = "地下鉄";
 
 "type.railway.station.subway.london" = "地下鉄";
 

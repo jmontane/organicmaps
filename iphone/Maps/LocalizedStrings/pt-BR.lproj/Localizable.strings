@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Barreira de bicicletas";
 
+"type.barrier.ditch" = "Vala";
+
 "type.barrier.entrance" = "Entrada";
 
 "type.barrier.fence" = "Cerca";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Portão";
 
 "type.barrier.hedge" = "Sebe";
+
+"type.barrier.kissing_gate" = "Portão";
 
 "type.barrier.lift_gate" = "Cancela";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Estação de fitness";
 
+"type.leisure.dance" = "Salão de dança";
+
 "type.leisure.garden" = "Jardim";
 
 "type.leisure.garden.residential" = "Jardim residencial";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Aterro";
 
 "type.natural.coastline" = "Linha costeira";
+
+"type.natural.desert" = "Deserto";
 
 "type.natural.geyser" = "Gêiser";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "Estação de metrô";
 
 "type.railway.station.subway.lisboa" = "Estação de metrô";
-
-"type.railway.station.subway.lisbon" = "Estação de metrô";
 
 "type.railway.station.subway.london" = "Estação de metrô";
 

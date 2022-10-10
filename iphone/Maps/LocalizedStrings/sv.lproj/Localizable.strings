@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "Vallgrav";
+
 "type.barrier.entrance" = "Ingång";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Grind";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "Grind";
 
 "type.barrier.lift_gate" = "Bom";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Fitnesstation";
 
+"type.leisure.dance" = "Danshall";
+
 "type.leisure.garden" = "Trädgård";
 
 "type.leisure.garden.residential" = "Trädgård";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Vägbank";
 
 "type.natural.coastline" = "Kust";
+
+"type.natural.desert" = "Desert";
 
 "type.natural.geyser" = "Gejser";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "Tunnelbana";
 
 "type.railway.station.subway.lisboa" = "Tunnelbana";
-
-"type.railway.station.subway.lisbon" = "Tunnelbana";
 
 "type.railway.station.subway.london" = "Tunnelbana";
 

@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "Şanţ";
+
 "type.barrier.entrance" = "Intrare";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Poartă";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "Poartă";
 
 "type.barrier.lift_gate" = "Barieră cu braț";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Sală de fitness";
 
+"type.leisure.dance" = "Sala de dans";
+
 "type.leisure.garden" = "Sit arheologic";
 
 "type.leisure.garden.residential" = "Sit arheologic";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Rambleu";
 
 "type.natural.coastline" = "Relief litoral";
+
+"type.natural.desert" = "Desert";
 
 "type.natural.geyser" = "Gheizer";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "Metrou";
 
 "type.railway.station.subway.lisboa" = "Metrou";
-
-"type.railway.station.subway.lisbon" = "Metrou";
 
 "type.railway.station.subway.london" = "Metrou";
 

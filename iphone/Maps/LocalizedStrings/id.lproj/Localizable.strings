@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "Parit";
+
 "type.barrier.entrance" = "Pintu masuk";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Gerbang";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "Gerbang";
 
 "type.barrier.lift_gate" = "Polisi tidur";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Stasiun Kebugaran";
 
+"type.leisure.dance" = "Lantai dansa";
+
 "type.leisure.garden" = "Situs arkeologi";
 
 "type.leisure.garden.residential" = "Situs arkeologi";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Tanggul";
 
 "type.natural.coastline" = "Pesisir";
+
+"type.natural.desert" = "Gurun";
 
 "type.natural.geyser" = "Geiser";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "Stasiun bawah tanah";
 
 "type.railway.station.subway.lisboa" = "Stasiun bawah tanah";
-
-"type.railway.station.subway.lisbon" = "Stasiun bawah tanah";
 
 "type.railway.station.subway.london" = "Stasiun bawah tanah";
 

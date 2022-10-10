@@ -866,10 +866,12 @@
 	<string name="type.barrier.chain">Zincir</string>
 	<string name="type.barrier.city_wall">Şehir Duvarı</string>
 	<string name="type.barrier.cycle_barrier">Bisiklet Bariyeri</string>
+	<string name="type.barrier.ditch">Hendek</string>
 	<string name="type.barrier.entrance">Giriş</string>
 	<string name="type.barrier.fence">Çit</string>
 	<string name="type.barrier.gate">Geçit</string>
 	<string name="type.barrier.hedge">Çit</string>
+	<string name="type.barrier.kissing_gate">Geçit</string>
 	<string name="type.barrier.lift_gate">Asansör Kapısı</string>
 	<string name="type.barrier.retaining_wall">İstinat duvarı</string>
 	<string name="type.barrier.stile">Çit Merdiveni</string>
@@ -1261,7 +1263,8 @@
 	<string name="type.leisure.common">Kamu Alanı</string>
 	<string name="type.leisure.dog_park">Köpek Alanı</string>
 	<string name="type.leisure.fitness_centre">Fitness Merkezi</string>
-	<string name="type.leisure.fitness_station">Fitness Salonu</string>
+	<string name="type.leisure.fitness_station">Açık Hava Spor Alanı</string>
+	<string name="type.leisure.dance">Dans salonu</string>
 	<string name="type.leisure.garden">Bahçe</string>
 	<string name="type.leisure.garden.residential">Konut Bahçesi</string>
 	<string name="type.leisure.golf_course">Golf Sahası</string>
@@ -1495,7 +1498,6 @@
 	<string name="type.railway.station.subway.lille">Metro</string>
 	<string name="type.railway.station.subway.lima">Metro</string>
 	<string name="type.railway.station.subway.lisboa">Metro</string>
-	<string name="type.railway.station.subway.lisbon">Metro</string>
 	<string name="type.railway.station.subway.london">Metro</string>
 	<string name="type.railway.station.subway.lyon">Metro</string>
 	<string name="type.railway.station.subway.madrid">Metro</string>

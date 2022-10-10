@@ -853,9 +853,11 @@
 	<string name="type.barrier.chain">Ланцюг</string>
 	<string name="type.barrier.city_wall">Міська стіна</string>
 	<string name="type.barrier.cycle_barrier">Велосипедна перешкода</string>
+	<string name="type.barrier.ditch">Рів</string>
 	<string name="type.barrier.entrance">Прохід</string>
 	<string name="type.barrier.fence">Огорожа</string>
 	<string name="type.barrier.gate">Ворота</string>
+	<string name="type.barrier.kissing_gate">Ворота</string>
 	<string name="type.barrier.lift_gate">Шлагбаум</string>
 	<string name="type.barrier.stile">Перелаз</string>
 	<string name="type.barrier.swing_gate">Шлагбаум</string>
@@ -1246,6 +1248,7 @@
 	<string name="type.leisure.dog_park">Місце для вигулу собак</string>
 	<string name="type.leisure.fitness_centre">Фітнес-зал</string>
 	<string name="type.leisure.fitness_station">Спортивні знаряддя</string>
+	<string name="type.leisure.dance">Танцювальний зал</string>
 	<string name="type.leisure.garden">Садок</string>
 	<string name="type.leisure.garden.residential">Частный сад</string>
 	<string name="type.leisure.golf_course">Майданчик для гольфу</string>
@@ -1307,6 +1310,7 @@
 	<string name="type.natural.earth_bank">Обрив</string>
 	<string name="type.man_made.embankment">Насип</string>
 	<string name="type.natural.coastline">Берегова лiнiя</string>
+	<string name="type.natural.desert">Пустиня</string>
 	<string name="type.natural.geyser">Гейзер</string>
 	<string name="type.natural.glacier">Льодовик</string>
 	<string name="type.natural.grassland">Луг</string>
@@ -1479,7 +1483,6 @@
 	<string name="type.railway.station.subway.lille">Метро</string>
 	<string name="type.railway.station.subway.lima">Метро</string>
 	<string name="type.railway.station.subway.lisboa">Метро</string>
-	<string name="type.railway.station.subway.lisbon">Метро</string>
 	<string name="type.railway.station.subway.london">Метро</string>
 	<string name="type.railway.station.subway.lyon">Метро</string>
 	<string name="type.railway.station.subway.madrid">Метро</string>

@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "Vollgrav";
+
 "type.barrier.entrance" = "Inngangspassasje";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "Port";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "Port";
 
 "type.barrier.lift_gate" = "Bom";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "Treningssenter";
 
+"type.leisure.dance" = "Dansesal";
+
 "type.leisure.garden" = "Hage";
 
 "type.leisure.garden.residential" = "Hage";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "Fylling";
 
 "type.natural.coastline" = "Kyst";
+
+"type.natural.desert" = "Ørken";
 
 "type.natural.geyser" = "Gaysir";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "T-bane";
 
 "type.railway.station.subway.lisboa" = "T-bane";
-
-"type.railway.station.subway.lisbon" = "T-bane";
 
 "type.railway.station.subway.london" = "T-bane";
 

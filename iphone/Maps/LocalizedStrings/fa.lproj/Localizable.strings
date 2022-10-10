@@ -1530,6 +1530,8 @@
 
 "type.barrier.cycle_barrier" = "Cycle Barrier";
 
+"type.barrier.ditch" = "ﻕﺪﻨﺧ";
+
 "type.barrier.entrance" = "ورودی";
 
 "type.barrier.fence" = "Fence";
@@ -1537,6 +1539,8 @@
 "type.barrier.gate" = "ورودی";
 
 "type.barrier.hedge" = "Hedge";
+
+"type.barrier.kissing_gate" = "ورودی";
 
 "type.barrier.lift_gate" = "اسانسور";
 
@@ -2307,6 +2311,8 @@
 
 "type.leisure.fitness_station" = "پارک سلامت";
 
+"type.leisure.dance" = "ﺺﻗﺭ ﻦﻟﺎﺳ";
+
 "type.leisure.garden" = "گردشگری";
 
 "type.leisure.garden.residential" = "گردشگری";
@@ -2436,6 +2442,8 @@
 "type.man_made.embankment" = "خاک‌ریز";
 
 "type.natural.coastline" = "کناره";
+
+"type.natural.desert" = "ﺮﯾﻮﮐ";
 
 "type.natural.geyser" = "چشمه آب گرم";
 
@@ -2792,8 +2800,6 @@
 "type.railway.station.subway.lima" = "حمل و نقل";
 
 "type.railway.station.subway.lisboa" = "حمل و نقل";
-
-"type.railway.station.subway.lisbon" = "حمل و نقل";
 
 "type.railway.station.subway.london" = "حمل و نقل";
 

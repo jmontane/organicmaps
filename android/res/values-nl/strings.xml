@@ -861,10 +861,12 @@
 	<string name="type.barrier.chain">Ketting</string>
 	<string name="type.barrier.city_wall">Stadsmuur</string>
 	<string name="type.barrier.cycle_barrier">Fietsbarrière</string>
+	<string name="type.barrier.ditch">Gracht</string>
 	<string name="type.barrier.entrance">Ingang</string>
 	<string name="type.barrier.fence">Hek</string>
 	<string name="type.barrier.gate">Poort</string>
 	<string name="type.barrier.hedge">Heg</string>
+	<string name="type.barrier.kissing_gate">Voetgangershek</string>
 	<string name="type.barrier.lift_gate">Slagboom</string>
 	<string name="type.barrier.retaining_wall">Keermuur</string>
 	<string name="type.barrier.stile">Tourniquet</string>
@@ -1255,6 +1257,7 @@
 	<string name="type.leisure.dog_park">Hondenuitlaatplek</string>
 	<string name="type.leisure.fitness_centre">Fitnesscentrum</string>
 	<string name="type.leisure.fitness_station">Fitness-Station</string>
+	<string name="type.leisure.dance">Danszaal</string>
 	<string name="type.leisure.garden">Tuin</string>
 	<string name="type.leisure.garden.residential">Tuin</string>
 	<string name="type.leisure.golf_course">Golfbaan</string>
@@ -1318,6 +1321,7 @@
 	<string name="type.natural.earth_bank">Klif</string>
 	<string name="type.man_made.embankment">Baanlichaam</string>
 	<string name="type.natural.coastline">Kustlijn</string>
+	<string name="type.natural.desert">Woestijn</string>
 	<string name="type.natural.geyser">Geiser</string>
 	<string name="type.natural.glacier">Gletsjer</string>
 	<string name="type.natural.grassland">Grasland</string>
@@ -1493,7 +1497,6 @@
 	<string name="type.railway.station.subway.lille">Metrostation</string>
 	<string name="type.railway.station.subway.lima">Metrostation</string>
 	<string name="type.railway.station.subway.lisboa">Metrostation</string>
-	<string name="type.railway.station.subway.lisbon">Metrostation</string>
 	<string name="type.railway.station.subway.london">Metrostation</string>
 	<string name="type.railway.station.subway.lyon">Metrostation</string>
 	<string name="type.railway.station.subway.madrid">Metrostation</string>
