@@ -1,5 +1,6 @@
 [[sound]]
 
+  
   [make_a_slight_right_turn]
     en = Keep right.
     ar = الزم اليمين.
@@ -19,7 +20,7 @@
     hu = Jobbra tartson.
     id = Tetap di kanan.
     it = Rimani sulla destra.
-    ja = 右を維持してください。
+    ja = 右方向です。
     ko = 오른쪽에 두기.
     mr = उजवीकडे ठेवा.
     nl = Rechts aanhouden.
@@ -57,7 +58,7 @@
     hu = Forduljon jobbra.
     id = Belok kanan.
     it = Gira a destra.
-    ja = 右に曲がります。
+    ja = 右折です。
     ko = 우회전하십시오.
     mr = उजवीकडे वळा.
     nl = Sla rechtsaf.
@@ -113,6 +114,21 @@
     vi = Rẽ ngoặt bên phải.
     zh-Hans = 向右急转。
     zh-Hant = 向右急轉。
+
+  [make_a_right_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, turn right onto Main Street")
+    ja = 右折し
+    nl = aanhouden naar rechts
+
+  [make_a_slight_right_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, keep right onto Main Street")
+    ja = 右を維持し
+    nl = sherp naar rechts
+
+  [make_a_sharp_right_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, sharp right onto Main Street")
+    ja = 急に右折
+    nl = sherp naar rechts
 
   [enter_the_roundabout]
     en = Enter the roundabout.
@@ -209,7 +225,7 @@
     hu = Balra tartson.
     id = Tetap di kiri.
     it = Rimani sulla sinistra.
-    ja = 左を維持してください。
+    ja = 左方向です。
     ko = 왼쪽에 두기.
     mr = डावीकडे ठेवा.
     nl = Links aanhouden.
@@ -247,7 +263,7 @@
     hu = Forduljon balra.
     id = Belok kiri.
     it = Gira a sinistra.
-    ja = 左に曲がります。
+    ja = 左折です。
     ko = 좌회전하십시오.
     mr = डावीकडे वळा.
     nl = Sla linksaf.
@@ -303,6 +319,21 @@
     vi = Rẽ ngoặt bên trái.
     zh-Hans = 向左急转。
     zh-Hant = 向左急轉。
+
+  [make_a_left_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, turn left onto Main Street")
+    ja = 左折し
+    nl = af naar links
+
+  [make_a_slight_left_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, keep left onto Main Street")
+    ja = 右を維持し
+    nl = sherp naar links
+
+  [make_a_sharp_left_turn_street]
+    comment = Used inside formatted phrases like dist_direction_onto_street ("in 500 meters, sharp left onto Main Street")
+    ja = 急に右折
+    nl = sherp naar links
 
   [make_a_u_turn]
     en = Make a u-turn.
@@ -1178,42 +1209,43 @@
     zh-Hans = 然后
     zh-Hant = 然後
 
-  [onto]
-    en = onto
-    ar = ﺈﻟﻯ
-    be = на
-    cs = na
-    da = ad
-    de = auf
-    el = στην
-    es = por
-    eu =
-    fa = ﺐﻫ
-    fi = tielle
-    fr = sur
-    hi = पर
-    hr = na
-    hu = a
-    id = ke
-    it = sulla
-    ja = に
-    ko =
-    mr = वर
-    nl = naar
-    pl = w
-    pt = na
-    pt-BR = na
-    ro = pe
-    ru = на
-    sk = na
-    sv = in på
-    sw = kwenye
-    th = เข้าสู่
-    tr = üzerine
-    uk = на
-    vi = vào
-    zh-Hans = 上
-    zh-Hant = 上
+  [dist_direction_onto_street]
+    comment = %1$s is the distance like in_500_meters, %2$s is the direction like make_a_right_turn_street or make_a_right_turn if unavailable, and %3$s is the name/number of the street/exit.
+    en = %1$s %2$s onto %3$s
+    ar = %1$s %2$s ﺈﻟﻯ f%3$s
+    be = %1$s %2$s на %3$s
+    cs = %1$s %2$s na %3$s
+    da = %1$s %2$s ad %3$s
+    de = %1$s %2$s auf %3$s
+    el = %1$s %2$s στην %3$s
+    es = %1$s %2$s por %3$s
+    eu = %1$s %2$s %3$s
+    fa = %1$s %2$s ﺐﻫ %3$s
+    fi = %2$s tielle %3$s %1$s
+    fr = %1$s %2$s sur %3$s
+    hi = %1$s %3$s पर %2$s
+    hr = %1$s %2$s na %3$s
+    hu = %1$s %2$s a %3$s-re
+    id = %1$s %2$s ke %3$s
+    it = %1$s %2$s sulla %3$s
+    ja = %1$s%2$s %3$s に入ります
+    ko = %1$s %2$s %3$s
+    mr = %1$s %3$s वर %2$s
+    nl = Sla %1$s %2$s naar %3$s
+    pl = %1$s %2$s w %3$s
+    pt = %1$s %2$s na %3$s
+    pt-BR = %1$s %2$s na %3$s
+    ro = %1$s %2$s pe %3$s
+    ru = %1$s %2$s на %3$s
+    sk = %1$s %2$s na %3$s
+    sv = %1$s %2$s in på %3$s
+    sw = %1$s %2$s kwenye %3$s
+    th = %1$s %2$s เข้าสู่ %3$s
+    tr = %1$s %3$s yönünde %2$s
+    uk = %1$s %2$s на %3$s
+    vi = %1$s %2$s vào %3$s
+    zh-Hans = %1$s %2$s 上 %3$s
+    zh-Hant = %1$s %2$s 上 %3$s
 
   [take_the_1_exit]
     en = Take the first exit.

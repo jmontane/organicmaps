@@ -30,7 +30,7 @@
 "in_2_5_kilometers":"In two and a half kilometers",
 "in_3_kilometers":"In three kilometers",
 "then":"Then",
-"onto":"onto",
+"dist_direction_onto_street":"%1$s %2$s onto %3$s",
 "take_the_1_exit":"Take the first exit.",
 "take_the_2_exit":"Take the second exit.",
 "take_the_3_exit":"Take the third exit.",

@@ -7,6 +7,9 @@
 #include <iterator>
 #include <string>
 #include <utility>
+#include <codecvt>
+#include <locale>
+#include <cstdio>
 
 using namespace std;
 
@@ -72,8 +75,9 @@ string GetTtsText::GetTurnNotification(Notification const & notification) const
   if (notification.m_distanceUnits > 0 && !notification.m_nextStreet.empty()) {
     // We're going to pronounce the street name.
 
-    // First, get rid of unpronounceable symbols.
-    std::string streetOut = notification.m_nextStreet;
+    // We have to use wstring in order to operate on Unicode text
+    // First, let's get rid of unpronounceable symbols.
+    std::wstring streetOut = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(notification.m_nextStreet);
     // Semicolons are between destinations
     // and pronounced more like commas.
     std::replace( streetOut.begin(), streetOut.end(), ';', ',');
@@ -88,12 +92,45 @@ string GetTtsText::GetTurnNotification(Notification const & notification) const
 
     // Replace any full-stop characters to make TTS flow better.
     // Full stops are: . (Period) or 。 (East Asian) or । (Hindi)
-    std::string dirOut(dirStr);
-    dirOut = std::regex_replace(dirOut, std::regex("[\\.\\。\\।]"), "");
+    std::wregex fullStops(L"[\\.\\。\\।]");
+    std::wstring distOut = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(distStr);
+    distOut = std::regex_replace(distOut, fullStops, L"");
 
-    return distStr + " " + dirOut + " " + GetTextById("onto") + " " + streetOut;
+    // If the turn direction with the key +_street exists for this locale, use it (like make_a_right_turn_street)
+    string const dirStreetStr = GetTextById(GetDirectionTextId(notification)+"_street");
+    LOG(LDEBUG, ("TTS GOT dirstreetstr:", dirStreetStr));
+    std::wstring dirOut;
+    if (!dirStreetStr.empty()) {
+      dirOut = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(dirStreetStr);
+    } else {
+      dirOut = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(dirStr);
+    }
+    dirOut = std::regex_replace(dirOut, fullStops, L"");
+
+    string const distDirOntoStreetStr = GetTextById("dist_direction_onto_street");
+    std::wstring distDirOntoStreetOut = std::wstring_convert<std::codecvt_utf8<wchar_t>>().from_bytes(distDirOntoStreetStr);
+
+    LOG(LDEBUG, ("TTS GOT:",
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(distDirOntoStreetOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(distOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(dirOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(streetOut).c_str()
+    ));
+
+    char ttsOut[1024];
+    snprintf(ttsOut, 1023,
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(distDirOntoStreetOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(distOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(dirOut).c_str(),
+      std::wstring_convert<std::codecvt_utf8<wchar_t>>().to_bytes(streetOut).c_str()
+    );
+
+    LOG(LDEBUG, ("TTS:", ttsOut));
+
+    return ttsOut;
   }
 
+  LOG(LDEBUG, ("TTS:", distStr + " " + dirStr));
   return distStr + " " + dirStr;
 }
 

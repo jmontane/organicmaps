@@ -30,7 +30,7 @@
 "in_2_5_kilometers":"Za dwa i pół kilometra",
 "in_3_kilometers":"Za trzy kilometry",
 "then":"Następnie",
-"onto":"na",
+"dist_direction_onto_street":"%1$s %2$s w %3$s",
 "take_the_1_exit":"Zjedź pierwszym zjazdem.",
 "take_the_2_exit":"Zjedź drugim zjazdem.",
 "take_the_3_exit":"Zjedź trzecim zjazdem.",

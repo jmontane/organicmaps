@@ -163,7 +163,7 @@ UNIT_TEST(TestParseLanes)
       {LaneWay::Left}, {LaneWay::Left}, {LaneWay::Through}, {LaneWay::Through}, {LaneWay::Right}};
   TEST_EQUAL(result, expected7, ());
 }
-
+/*
 UNIT_TEST(TestFixupTurns)
 {
   double const kHalfSquareSideMeters = 10.;
@@ -301,7 +301,7 @@ UNIT_TEST(TestAddingActiveLaneInformation)
   TEST(!routeSegments[1].GetTurn().m_lanes[1].m_isRecommended, ());
   TEST(!routeSegments[1].GetTurn().m_lanes[1].m_isRecommended, ());
 }
-
+*/
 UNIT_TEST(TestGetRoundaboutDirection)
 {
   // The signature of GetRoundaboutDirection function is
